@@ -12,8 +12,8 @@ function Homepage({ currUser }) {
 
   if (!currUser) {
     return (
-      <div className="row Homepage-background">
-        <div className="row Homepage-background-opaque">
+      <div className="Homepage-background">
+        <div className="row">
           <div className="col-10 offset-1">
           <motion.div className="Homepage"
           animate={{ x: 0 }}
@@ -31,12 +31,12 @@ function Homepage({ currUser }) {
           </motion.div>
           </div>
         </div>
-      </div>
+        </div>
     )
   }
   return (
-    <div className="row Homepage-background">
-      <div className="Homepage-background-opaque">
+    <div className="Homepage-background">
+      <div className="row">
         <div className="col-10 offset-1">
           <motion.div className="Homepage"
           animate={{ x: 0 }}
@@ -54,7 +54,7 @@ function Homepage({ currUser }) {
           </motion.div>
         </div>
       </div>
-    </div>
+      </div>
 
   )
 }

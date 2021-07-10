@@ -32,10 +32,10 @@ function NavigationBar({currUser}) {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/listings">All-Listings</Nav.Link>
+              <Nav.Link href="/listings">Book a Sharebnb</Nav.Link>
             </Nav>
             <Nav className="ml-auto">
-              <Nav.Link href="/share">Add-listing</Nav.Link>
+              <Nav.Link href="/share">Share My Space</Nav.Link>
               <NavDropdown alignRight title={currUser.firstName} id="basic-nav-dropdown">
                 <NavDropdown.Item href="/my-listings">My Listings</NavDropdown.Item>
                 <NavDropdown.Item href="/my-bookings">My Bookings</NavDropdown.Item>

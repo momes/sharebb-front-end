@@ -1,5 +1,26 @@
 .Listings-ul {
     list-style: none;
     justify-content: space-between;
-    width: 100%;
+    align-items: left;
+    margin-left: 0 !important;
+    margin-right: 5% !important;
+    padding-right: 5%;
+}
+
+.map-container {
+    overflow: hidden;
+    max-height: 80vh;
+}
+
+
+.Listings-container {
+    margin-left: 0 !important;
+    padding: 5px !important;
+}
+
+.Listings-right {
+    align-items: left;
+    margin: 0% 0% !important;
+    padding-right: 0% !important;
+
 }

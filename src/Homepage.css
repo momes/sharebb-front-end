@@ -14,30 +14,14 @@
     margin-top: 5%;
 }
 
-.Homepage-background-opaque {
-    display: block;
-    height: 150vh;
-    width: 105vw;
-    background-image:linear-gradient(to top, rgba(255, 255, 255, 0.001), rgba(65, 109, 255, 0.753));
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: 50%;
-    background-size: 100% auto;
-    position: relative;
-    overflow-x: visible;
-    z-index: -1;
-
-}
-
 .Homepage-background {
-    height: 150vh;
-    width: 115vw;
     background-image: url('./static/backgroundImage.jpg');
-    position: absolute;
     z-index: 0;
+    min-height: 100vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    background-position: top;
+    background-size: 150vh;
     
 }
 
